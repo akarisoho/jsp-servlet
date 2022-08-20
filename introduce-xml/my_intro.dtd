@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE intro[
+	<!NOTATION jpeg PUBLIC "image/jpeg" "mspaint.exe">
+	<!ELEMENT image EMPTY>
+	<!ATTLIST image src CDATA #REQUIRED type NOTATION (jpeg) #REQUIRED>
+	
+	<!ELEMENT intro(block1,block2,block3,block4,block5,block6,block7)>
+	<!ELEMENT block1 (studentID,name,major,grade,gender,address)>
+	<!ELEMENT block2 (company,department,main_task)>
+	<!ELEMENT block3 (reson,expectation,wish)>
+	<!ELEMENT block4 (advantages,disadvantages)>
+	<!ELEMENT block5 (#PCDATA)>
+	<!ELEMENT block6 (#PCDATA)>
+	<!ELEMENT block7 (#PCDATA)>
+	
+	<!ELEMENT studentID (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT major (#PCDATA)>
+	<!ELEMENT grade (#PCDATA)>
+	<!ELEMENT gender (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	
+	<!ELEMENT company (#PCDATA)>
+	<!ELEMENT department (#PCDATA)>
+	<!ELEMENT main_task (#PCDATA)>
+
+	<!ELEMENT reson (#PCDATA)>
+	<!ELEMENT expectation (#PCDATA)>
+	<!ELEMENT wish (#PCDATA)>
+
+	<!ELEMENT adventeges (#PCDATA)>
+	<!ELEMENT disadvantages (#PCDATA)>
+]>

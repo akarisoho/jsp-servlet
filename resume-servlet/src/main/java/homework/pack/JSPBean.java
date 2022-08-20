@@ -7,9 +7,9 @@ public class JSPBean implements Serializable {
 	
 	private String fileName = "my_profile_image.png";
 	
-	private String name ="장예진";
+	private String name ="별ㅣ";
 	private String depart = "응용SW공학과";
-	private int studentID = 2021100075;
+	private int studentID = 2021;
 	
 	Calendar cal = Calendar.getInstance();
 	
